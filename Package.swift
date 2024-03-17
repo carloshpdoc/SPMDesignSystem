@@ -26,15 +26,15 @@ let package = Package(
         .target(
             name: "Tokens",
             dependencies: [],
-            path: "Sources/Tokens"), // Especifica o caminho para o código-fonte de Tokens.
+            path: "Tokens/Sources"), // Especifica o caminho para o código-fonte de Tokens.
         .target(
             name: "Texts",
             dependencies: [],
-            path: "Sources/Texts"), // Especifica o caminho para o código-fonte de Texts.
+            path: "Texts/Sources"), // Especifica o caminho para o código-fonte de Texts.
         .target(
             name: "Buttons",
             dependencies: [],
-            path: "Sources/Buttons"), // Especifica o caminho para o código-fonte de Buttons.
+            path: "Button/Sources"), // Especifica o caminho para o código-fonte de Buttons.
         // Test targets podem ser definidos aqui, se você tiver testes específicos para cada sub-pacote.
     ]
 )
